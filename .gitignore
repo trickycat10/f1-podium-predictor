@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# FastF1 raw HTTP cache (large binary SQLite files)
+data_cache/fastf1_http_cache.sqlite
+data_cache/2024/
+data_cache/2025/
+data_cache/2026/
+
+# Keep the curated parquet training data
+!data_cache/real_training_data.parquet
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
